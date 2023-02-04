@@ -1,0 +1,14 @@
+{
+	"name": "wpsyntex/polylang-stubs",
+	"description": "Polylang and Polylang Pro function and class declaration stubs for static analysis.",
+	"license": "GPL-3.0-or-later",
+	"homepage": "https://polylang.pro",
+	"type": "library",
+	"require-dev": {
+		"php": "~7.1",
+		"php-stubs/generator": "^0.8.1"
+	},
+	"suggest": {
+		"wpsyntex/polylang-phpstan": "Polylang extension for PHPStan"
+	}
+}

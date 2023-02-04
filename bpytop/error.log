@@ -1,0 +1,1708 @@
+06/08/22 (10:44:12) | ERROR: Input thread failed with exception: [Errno 5] Input/output error
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 919, in _get_key
+    input_key += sys.stdin.read(1)						#* Read 1 key safely with blocking on
+OSError: [Errno 5] Input/output error
+09/08/22 (15:57:47) | WARNING: The menu system only works on a terminal size of 80x24 or above!
+09/08/22 (15:57:49) | WARNING: The menu system only works on a terminal size of 80x24 or above!
+09/08/22 (15:57:50) | WARNING: The menu system only works on a terminal size of 80x24 or above!
+09/08/22 (15:57:50) | WARNING: The menu system only works on a terminal size of 80x24 or above!
+09/08/22 (15:57:52) | WARNING: The menu system only works on a terminal size of 80x24 or above!
+09/08/22 (15:57:52) | WARNING: The menu system only works on a terminal size of 80x24 or above!
+09/08/22 (15:57:53) | WARNING: The menu system only works on a terminal size of 80x24 or above!
+09/08/22 (15:57:53) | WARNING: The menu system only works on a terminal size of 80x24 or above!
+09/08/22 (15:57:54) | WARNING: The menu system only works on a terminal size of 80x24 or above!
+09/08/22 (15:57:55) | WARNING: The menu system only works on a terminal size of 80x24 or above!
+09/08/22 (15:57:55) | WARNING: The menu system only works on a terminal size of 80x24 or above!
+13/08/22 (19:33:41) | ERROR: Input thread failed with exception: (5, 'Input/output error')
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 967, in _get_key
+    input_key = ""
+  File "/usr/bin/bpytop", line 760, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error')
+13/08/22 (22:13:15) | ERROR: Input thread failed with exception: [Errno 5] Input/output error
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 919, in _get_key
+    input_key += sys.stdin.read(1)						#* Read 1 key safely with blocking on
+OSError: [Errno 5] Input/output error
+18/08/22 (10:03:52) | ERROR: maximum recursion depth exceeded
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 5573, in main
+    run()
+  File "/usr/bin/bpytop", line 5566, in run
+    if Key.input_wait(Timer.left()):
+  File "/usr/bin/bpytop", line 893, in input_wait
+    cls.new.wait(sec if sec > 0 else 0.0)
+  File "/usr/lib/python3.9/threading.py", line 574, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 699, in refresh
+    Timer.finish()
+  File "/usr/bin/bpytop", line 4928, in finish
+    Key.break_wait()
+  File "/usr/bin/bpytop", line 906, in break_wait
+    sleep(0.01)
+  File "/usr/bin/bpytop", line 689, in refresh
+    cls.winch.wait(0.3)
+  File "/usr/lib/python3.9/threading.py", line 574, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 544, in set
+    self._cond.notify_all()
+  File "/usr/lib/python3.9/threading.py", line 381, in notify_all
+    self.notify(len(self._waiters))
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+  File "/usr/lib/python3.9/threading.py", line 257, in __enter__
+    return self._lock.__enter__()
+  File "/usr/bin/bpytop", line 650, in refresh
+    if cls.resized: cls.winch.set(); return
+  File "/usr/lib/python3.9/threading.py", line 542, in set
+    with self._cond:
+RecursionError: maximum recursion depth exceeded
+18/08/22 (10:03:52) | WARNING: Exiting with errorcode (1). Runtime 0:09:48 
+
+19/08/22 (15:45:01) | ERROR: Input thread failed with exception: (5, 'Input/output error')
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 967, in _get_key
+    input_key = ""
+  File "/usr/bin/bpytop", line 760, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error')
+24/08/22 (14:37:31) | ERROR: Input thread failed with exception: (5, 'Input/output error')
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 967, in _get_key
+    input_key = ""
+  File "/usr/bin/bpytop", line 760, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error')
+25/08/22 (09:29:00) | ERROR: Input thread failed with exception: (5, 'Input/output error')
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 967, in _get_key
+    input_key = ""
+  File "/usr/bin/bpytop", line 760, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error')
+27/08/22 (08:51:19) | ERROR: Data collection thread failed with exception: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 2909, in _runner
+    collector._draw()
+  File "/usr/bin/bpytop", line 3937, in _draw
+    ProcBox._draw_fg()
+  File "/usr/bin/bpytop", line 2723, in _draw_fg
+    (f'{proc.details["terminal"][-(iw2):]:^{iw}.{iw2}}' if expand > 4 else "") +
+TypeError: 'NoneType' object is not subscriptable
+27/08/22 (08:51:20) | WARNING: Exiting with errorcode (1). Runtime 1 day, 23:18:11 
+
+27/08/22 (16:01:39) | ERROR: Input thread failed with exception: (5, 'Input/output error')
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 967, in _get_key
+    input_key = ""
+  File "/usr/bin/bpytop", line 760, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error')
+02/09/22 (06:50:43) | ERROR: Input thread failed with exception: (5, 'Input/output error')
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 967, in _get_key
+    input_key = ""
+  File "/usr/bin/bpytop", line 760, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error')
+02/09/22 (06:50:43) | ERROR: Input thread failed with exception: (5, 'Input/output error')
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 967, in _get_key
+    input_key = ""
+  File "/usr/bin/bpytop", line 760, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error')
+02/09/22 (06:50:43) | ERROR: Input thread failed with exception: (5, 'Input/output error')
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 967, in _get_key
+    input_key = ""
+  File "/usr/bin/bpytop", line 760, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error')
+02/09/22 (09:46:34) | ERROR: Input thread failed with exception: (5, 'Input/output error')
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 967, in _get_key
+    input_key = ""
+  File "/usr/bin/bpytop", line 760, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error')
+02/09/22 (09:46:34) | ERROR: Input thread failed with exception: (5, 'Input/output error')
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 967, in _get_key
+    input_key = ""
+  File "/usr/bin/bpytop", line 760, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error')
+02/09/22 (12:15:03) | ERROR: Input thread failed with exception: [Errno 5] Input/output error
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 919, in _get_key
+    input_key += sys.stdin.read(1)						#* Read 1 key safely with blocking on
+OSError: [Errno 5] Input/output error
+08/09/22 (08:27:09) | ERROR: Input thread failed with exception: (5, 'Input/output error')
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 967, in _get_key
+    input_key = ""
+  File "/usr/bin/bpytop", line 760, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error')
+10/09/22 (16:09:47) | ERROR: Input thread failed with exception: (5, 'Input/output error')
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 967, in _get_key
+    input_key = ""
+  File "/usr/bin/bpytop", line 760, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error')
+10/09/22 (17:35:14) | ERROR: Input thread failed with exception: (5, 'Input/output error')
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 967, in _get_key
+    input_key = ""
+  File "/usr/bin/bpytop", line 760, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error')
+16/09/22 (08:23:37) | ERROR: Input thread failed with exception: (5, 'Input/output error')
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 967, in _get_key
+    input_key = ""
+  File "/usr/bin/bpytop", line 760, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error')
+16/09/22 (15:25:30) | ERROR: Input thread failed with exception: [Errno 5] Input/output error
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 919, in _get_key
+    input_key += sys.stdin.read(1)						#* Read 1 key safely with blocking on
+OSError: [Errno 5] Input/output error
+17/09/22 (14:48:15) | ERROR: Data collection thread failed with exception: 'nice'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 2909, in _runner
+    collector._draw()
+  File "/usr/bin/bpytop", line 3937, in _draw
+    ProcBox._draw_fg()
+  File "/usr/bin/bpytop", line 2721, in _draw_fg
+    (f'{proc.details["threads"]:^{iw}.{iw2}}' if expand > 0 else "") + (f'{proc.details["nice"]:^{iw}.{iw2}}' if expand > 1 else "") +
+KeyError: 'nice'
+17/09/22 (14:48:16) | WARNING: Exiting with errorcode (1). Runtime 0:09:21 
+
+02/10/22 (11:28:35) | ERROR: Input thread failed with exception: (5, 'Input/output error')
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 967, in _get_key
+    input_key = ""
+  File "/usr/bin/bpytop", line 760, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error')
+15/10/22 (05:34:51) | ERROR: Data collection thread failed with exception: Precision not allowed in integer format specifier
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 2909, in _runner
+    collector._draw()
+  File "/usr/bin/bpytop", line 3937, in _draw
+    ProcBox._draw_fg()
+  File "/usr/bin/bpytop", line 2721, in _draw_fg
+    (f'{proc.details["threads"]:^{iw}.{iw2}}' if expand > 0 else "") + (f'{proc.details["nice"]:^{iw}.{iw2}}' if expand > 1 else "") +
+ValueError: Precision not allowed in integer format specifier
+15/10/22 (05:34:53) | WARNING: Exiting with errorcode (1). Runtime 5 days, 16:32:45 
+
+22/10/22 (08:58:47) | ERROR: Input thread failed with exception: (5, 'Input/output error')
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 967, in _get_key
+    input_key = ""
+  File "/usr/bin/bpytop", line 760, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error')
+11/11/22 (11:01:28) | ERROR: Data collection thread failed with exception: 'nice'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 2909, in _runner
+    collector._draw()
+  File "/usr/bin/bpytop", line 3937, in _draw
+    ProcBox._draw_fg()
+  File "/usr/bin/bpytop", line 2721, in _draw_fg
+    (f'{proc.details["threads"]:^{iw}.{iw2}}' if expand > 0 else "") + (f'{proc.details["nice"]:^{iw}.{iw2}}' if expand > 1 else "") +
+KeyError: 'nice'
+11/11/22 (11:01:30) | WARNING: Exiting with errorcode (1). Runtime 5 days, 18:38:27 
+
+02/12/22 (07:16:00) | ERROR: Input thread failed with exception: (5, 'Input/output error')
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 967, in _get_key
+    input_key = ""
+  File "/usr/bin/bpytop", line 760, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error')
+06/12/22 (10:13:17) | ERROR: Input thread failed with exception: (5, 'Input/output error')
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 967, in _get_key
+    input_key = ""
+  File "/usr/bin/bpytop", line 760, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error')

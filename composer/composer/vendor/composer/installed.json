@@ -1,0 +1,325 @@
+{
+    "packages": [
+        {
+            "name": "php-stubs/acf-pro-stubs",
+            "version": "v6.0.6",
+            "version_normalized": "6.0.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-stubs/acf-pro-stubs.git",
+                "reference": "3301f61c975ee6078fc89c1f6ba70358349ea137"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-stubs/acf-pro-stubs/zipball/3301f61c975ee6078fc89c1f6ba70358349ea137",
+                "reference": "3301f61c975ee6078fc89c1f6ba70358349ea137",
+                "shasum": ""
+            },
+            "require": {
+                "php-stubs/wordpress-stubs": "^4.7 || ^5.0 || ^6.0"
+            },
+            "require-dev": {
+                "php": "~7.1",
+                "php-stubs/generator": "^0.8"
+            },
+            "suggest": {
+                "symfony/polyfill-php73": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+                "szepeviktor/phpstan-wordpress": "WordPress extensions for PHPStan"
+            },
+            "time": "2022-12-25T22:14:41+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Advanced Custom Fields PRO stubs for static analysis.",
+            "homepage": "https://github.com/php-stubs/acf-pro-stubs",
+            "keywords": [
+                "PHPStan",
+                "acf",
+                "static analysis",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/php-stubs/acf-pro-stubs/issues",
+                "source": "https://github.com/php-stubs/acf-pro-stubs/tree/v6.0.6"
+            },
+            "install-path": "../php-stubs/acf-pro-stubs"
+        },
+        {
+            "name": "php-stubs/genesis-stubs",
+            "version": "v3.4.0",
+            "version_normalized": "3.4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-stubs/genesis-stubs.git",
+                "reference": "643c34ccf95bb32baca2b15f15a1d04726dd3339"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-stubs/genesis-stubs/zipball/643c34ccf95bb32baca2b15f15a1d04726dd3339",
+                "reference": "643c34ccf95bb32baca2b15f15a1d04726dd3339",
+                "shasum": ""
+            },
+            "require": {
+                "php-stubs/wordpress-stubs": "^5.3.0"
+            },
+            "require-dev": {
+                "php": "~7.4",
+                "php-stubs/generator": "^0.8.0"
+            },
+            "suggest": {
+                "symfony/polyfill-php73": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+                "szepeviktor/phpstan-wordpress": "WordPress extensions for PHPStan"
+            },
+            "time": "2022-10-01T23:15:26+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Genesis functions stubs for static analysis.",
+            "homepage": "https://github.com/php-stubs/genesis-stubs",
+            "keywords": [
+                "PHPStan",
+                "genesis",
+                "static analysis",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/php-stubs/genesis-stubs/issues",
+                "source": "https://github.com/php-stubs/genesis-stubs/tree/v3.4.0"
+            },
+            "install-path": "../php-stubs/genesis-stubs"
+        },
+        {
+            "name": "php-stubs/woocommerce-stubs",
+            "version": "v7.3.0",
+            "version_normalized": "7.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-stubs/woocommerce-stubs.git",
+                "reference": "446c335118632e00854b9ada74319b200e5c78a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-stubs/woocommerce-stubs/zipball/446c335118632e00854b9ada74319b200e5c78a2",
+                "reference": "446c335118632e00854b9ada74319b200e5c78a2",
+                "shasum": ""
+            },
+            "require": {
+                "php-stubs/wordpress-stubs": "^5.3 || ^6.0"
+            },
+            "require-dev": {
+                "php": "~7.1 || ~8.0",
+                "php-stubs/generator": "^0.8.0"
+            },
+            "suggest": {
+                "symfony/polyfill-php73": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+                "szepeviktor/phpstan-wordpress": "WordPress extensions for PHPStan"
+            },
+            "time": "2023-01-13T00:24:42+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "WooCommerce function and class declaration stubs for static analysis.",
+            "homepage": "https://github.com/php-stubs/woocommerce-stubs",
+            "keywords": [
+                "PHPStan",
+                "static analysis",
+                "woocommerce",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/php-stubs/woocommerce-stubs/issues",
+                "source": "https://github.com/php-stubs/woocommerce-stubs/tree/v7.3.0"
+            },
+            "install-path": "../php-stubs/woocommerce-stubs"
+        },
+        {
+            "name": "php-stubs/wordpress-globals",
+            "version": "v0.2.0",
+            "version_normalized": "0.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-stubs/wordpress-globals.git",
+                "reference": "748a1fb2ae8fda94844bd0545935095dbf404b32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-stubs/wordpress-globals/zipball/748a1fb2ae8fda94844bd0545935095dbf404b32",
+                "reference": "748a1fb2ae8fda94844bd0545935095dbf404b32",
+                "shasum": ""
+            },
+            "require-dev": {
+                "php": "~7.1"
+            },
+            "suggest": {
+                "php-stubs/wordpress-stubs": "Up-to-date WordPress function and class declaration stubs",
+                "szepeviktor/phpstan-wordpress": "WordPress extensions for PHPStan"
+            },
+            "time": "2020-01-13T06:12:59+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Global variables and global constants from WordPress core.",
+            "homepage": "https://github.com/php-stubs/wordpress-globals",
+            "keywords": [
+                "PHPStan",
+                "constants",
+                "globals",
+                "static analysis",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/php-stubs/wordpress-globals/issues",
+                "source": "https://github.com/php-stubs/wordpress-globals/tree/master"
+            },
+            "install-path": "../php-stubs/wordpress-globals"
+        },
+        {
+            "name": "php-stubs/wordpress-stubs",
+            "version": "v5.9.5",
+            "version_normalized": "5.9.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-stubs/wordpress-stubs.git",
+                "reference": "13ecf204a7e6d215a7c0d23e2aa27940fe617717"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-stubs/wordpress-stubs/zipball/13ecf204a7e6d215a7c0d23e2aa27940fe617717",
+                "reference": "13ecf204a7e6d215a7c0d23e2aa27940fe617717",
+                "shasum": ""
+            },
+            "replace": {
+                "giacocorsiglia/wordpress-stubs": "*"
+            },
+            "require-dev": {
+                "nikic/php-parser": "< 4.12.0",
+                "php": "~7.3 || ~8.0",
+                "php-stubs/generator": "^0.8.1",
+                "phpdocumentor/reflection-docblock": "^5.3",
+                "phpstan/phpstan": "^1.2"
+            },
+            "suggest": {
+                "paragonie/sodium_compat": "Pure PHP implementation of libsodium",
+                "symfony/polyfill-php73": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+                "szepeviktor/phpstan-wordpress": "WordPress extensions for PHPStan"
+            },
+            "time": "2022-11-09T05:32:14+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "WordPress function and class declaration stubs for static analysis.",
+            "homepage": "https://github.com/php-stubs/wordpress-stubs",
+            "keywords": [
+                "PHPStan",
+                "static analysis",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/php-stubs/wordpress-stubs/issues",
+                "source": "https://github.com/php-stubs/wordpress-stubs/tree/v5.9.5"
+            },
+            "install-path": "../php-stubs/wordpress-stubs"
+        },
+        {
+            "name": "php-stubs/wp-cli-stubs",
+            "version": "v2.7.0",
+            "version_normalized": "2.7.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-stubs/wp-cli-stubs.git",
+                "reference": "428544fc3696273bfbb4cffe4ac88f5fed428fc8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-stubs/wp-cli-stubs/zipball/428544fc3696273bfbb4cffe4ac88f5fed428fc8",
+                "reference": "428544fc3696273bfbb4cffe4ac88f5fed428fc8",
+                "shasum": ""
+            },
+            "require": {
+                "php-stubs/wordpress-stubs": "^4.7 || ^5.0 || ^6.0"
+            },
+            "require-dev": {
+                "php": "~7.3 || ~8.0",
+                "php-stubs/generator": "^0.8.0"
+            },
+            "suggest": {
+                "symfony/polyfill-php73": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+                "szepeviktor/phpstan-wordpress": "WordPress extensions for PHPStan"
+            },
+            "time": "2022-11-10T19:19:05+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "WP-CLI function and class declaration stubs for static analysis.",
+            "homepage": "https://github.com/php-stubs/wp-cli-stubs",
+            "keywords": [
+                "PHPStan",
+                "static analysis",
+                "wordpress",
+                "wp-cli"
+            ],
+            "support": {
+                "issues": "https://github.com/php-stubs/wp-cli-stubs/issues",
+                "source": "https://github.com/php-stubs/wp-cli-stubs/tree/v2.7.0"
+            },
+            "install-path": "../php-stubs/wp-cli-stubs"
+        },
+        {
+            "name": "wpsyntex/polylang-stubs",
+            "version": "3.2",
+            "version_normalized": "3.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/polylang/polylang-stubs.git",
+                "reference": "0bdb0bba7bdeb5dd8b8363d93fdce84ded5f9012"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/polylang/polylang-stubs/zipball/0bdb0bba7bdeb5dd8b8363d93fdce84ded5f9012",
+                "reference": "0bdb0bba7bdeb5dd8b8363d93fdce84ded5f9012",
+                "shasum": ""
+            },
+            "require-dev": {
+                "php": "~7.1",
+                "php-stubs/generator": "^0.8.1"
+            },
+            "suggest": {
+                "wpsyntex/polylang-phpstan": "Polylang extension for PHPStan"
+            },
+            "time": "2022-06-13T08:42:39+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "Polylang and Polylang Pro function and class declaration stubs for static analysis.",
+            "homepage": "https://polylang.pro",
+            "support": {
+                "issues": "https://github.com/polylang/polylang-stubs/issues",
+                "source": "https://github.com/polylang/polylang-stubs/tree/3.2"
+            },
+            "install-path": "../wpsyntex/polylang-stubs"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
